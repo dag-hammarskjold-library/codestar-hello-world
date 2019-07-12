@@ -27,7 +27,7 @@ Resources:
   HelloWorld:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: app.index.handler
       Runtime: python3.7
       Role:
         Fn::GetAtt:
